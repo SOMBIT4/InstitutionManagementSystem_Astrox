@@ -1,10 +1,11 @@
+const courseModel = require("../../models/courses")
 const ProductModel = require("../../models/productModel")
 
 
 const getCatagoryProduct = async (req, res) => {
     try {
 
-        const productCategory = await ProductModel.distinct("category")
+        const productCategory = await courseModel.distinct("category")
 
         console.log("category", productCategory)
 

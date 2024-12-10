@@ -1,9 +1,10 @@
+const courseModel = require("../../models/courses")
 const ProductModel = require("../../models/productModel")
 
 const getCatagoryWiseProduct = async (req,res)=>{
     try{
         const { category } = req?.body || req?.query
-        const product =await ProductModel.find ({ category })
+        const product =await courseModel.find ({ category })
           
         res.json({
             message: "Product",

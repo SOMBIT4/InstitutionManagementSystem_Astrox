@@ -124,7 +124,7 @@ const Header = () => {
                           className="whitespace-nowrap hidden md:block hover:bg-slate-100 p-2 text-center"
                           onClick={() => setMenuDisplay((preve) => !preve)}
                         >
-                          Orders
+                          Courses
                         </Link>
                       )}
                       {(user?.role === ROLE.STUDENT ||

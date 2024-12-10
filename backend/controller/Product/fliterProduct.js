@@ -15,7 +15,7 @@ const filterProductController = async (req, res) => {
             });
         }
 
-        const products = await productModel.find({
+        const products = await courseModel.find({
             category: { $in: categoryList }
         });
 

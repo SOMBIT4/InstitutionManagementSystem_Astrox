@@ -1,4 +1,5 @@
 const uploadproductpermission = require("../../helpers/permission")
+const courseModel = require("../../models/courses")
 const ProductModel = require("../../models/productModel")
 
 async function deleteProductController(req,res){
@@ -8,7 +9,7 @@ async function deleteProductController(req,res){
         }
 
         const {_id, ...resBody}=req.body 
-        const deleteProduct = await ProductModel.findByIdAndDelete(_id,resBody)
+        const deleteProduct = await courseModel.findByIdAndDelete(_id,resBody)
        console.log("deleteProduct ",deleteProduct)
        res.json({
         message : "Product Deleted successfully",
