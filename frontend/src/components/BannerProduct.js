@@ -14,13 +14,7 @@ const BannerProduct = () => {
         image2,
 
     ]
-    // const mobileImages =[
-    //     image1Mobile,
-    //     image2Mobile,
-    //     image3Mobile,
-    //     image4Mobile,
-    //     image5Mobile
-    // ]
+    
     const nextImage = () =>{
         if(desktopImages.length-1 > currentImage){
             setCurrentImage(preve => preve + 1)

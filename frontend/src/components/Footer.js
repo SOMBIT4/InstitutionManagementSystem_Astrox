@@ -7,7 +7,7 @@ const Footer = () => {
       <div className='flex justify-center'>
       
       
-            <Logo w={270} h={60} />
+            
           
       </div>
     </footer>

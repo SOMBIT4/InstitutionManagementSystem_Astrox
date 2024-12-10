@@ -1,3 +1,4 @@
+const courseModel = require("../../models/courses");
 const productModel = require("../../models/productModel");
 
 const filterProductController = async (req, res) => {
@@ -23,7 +24,7 @@ const filterProductController = async (req, res) => {
 
         res.json({
             data: products,
-            message: "Products found successfully",
+            message: "Course found successfully",
             error: false,
             success: true
         });

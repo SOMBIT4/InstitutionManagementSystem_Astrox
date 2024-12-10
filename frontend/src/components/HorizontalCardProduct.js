@@ -89,7 +89,7 @@ const HorizontalCardProduct = ({ category, heading }) => {
 
                                         <p className='text-slate-500 line-through'>{displayBDTCurrency(product?.price) }</p>
                                     </div>
-                                    <button className='text-sm bg-red-600 hover:bg-red-700 text-white px-3 py-0.5 rounded-full' onClick={(e)=>handelAddToCart(e,product?._id)}>Add to Cart</button>
+                                    <button className='text-sm bg-red-600 hover:bg-red-700 text-white px-3 py-0.5 rounded-full' onClick={(e)=>handelAddToCart(e,product?._id)}>Enroll</button>
                                 </div>
                             </Link>
                         )

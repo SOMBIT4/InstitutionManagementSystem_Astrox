@@ -69,7 +69,7 @@ const Header = () => {
           <div className="h-full container mx-auto flex items-center px-4 justify-between">
             <div className="">
               <Link to={"/"}>
-                <Logo w={170} h={60} />
+              <img src="/icon5.png" width="65" height="40"/>
               </Link>
             </div>
             <div className="hidden lg:flex items-center w-full justify-between max-w-sm border-2 rounded-full focus-within:shadow-md pl-3">
